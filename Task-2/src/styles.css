@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+.container {
+  color: white;
+  height: 70px;
+}
+nav {
+  background: rgb(51, 114, 114);
+  padding-top: 10px;
+  height: 50px;
+  width: 100%;
+}
+h1 {
+  float: left;
+  color: white;
+  text-decoration: none;
+
+  padding-top: 7px;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.btn {
+  float: right;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.row {
+  margin-top: -20px;
+  margin-left: 100px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10 10px;
+  margin: 20px;
+}
+.card {
+  padding: 30px;
+  text-align: center;
+  border-radius: 5%;
+  background: rgb(51, 114, 114);
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card-avatar {
+  border-radius: 15%;
+  height: 50%;
+  width: 50%;
+}
+.card-text {
+  font-size: 19px;
+  color: white;
+}
